@@ -8,11 +8,11 @@ void setup() {
 
 void loop() {
   myservo.write(0);    
-  delay(500);          
+  delay(500);        // increased the delay to 100 for 0 degree  
 
   myservo.write(90);    
   delay(500);         
 
   myservo.write(180);   
-  delay(500);         
+  delay(1000);  // icreased the delay to 1000 for 180 degree         
 }
